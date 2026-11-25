@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Source CV (not published with the site)
+*.pages

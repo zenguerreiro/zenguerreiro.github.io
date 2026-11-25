@@ -1,24 +1,29 @@
 # zenguerreiro.github.io
-Playground - learn to use git
 
-A simple, single-page personal website for David Zimmerman, a commissioning specialist and jiu jitsu coach based in Edmonton, Alberta. It has a short bio, a few interests, and a way to get in touch.
+The personal website of **David Zimmerman**, a Commissioning & Startup Specialist based in Edmonton, Alberta, with 15 years of process operations experience across refining, chemical and SAGD facilities.
 
-Built with plain HTML and CSS, with no frameworks or build step. The layout is responsive and works on phones and laptops.
+**Live site:** https://zenguerreiro.github.io
 
-## Live site
+## About this project
 
-Hosted with GitHub Pages: **https://zenguerreiro.github.io**
+A three-page static site built with plain HTML and CSS. There are no frameworks, JavaScript or build steps. The design uses bold typography, deep neutrals and a single orange accent color. It is fully responsive, so it works on phones, tablets and laptops.
 
-## Files
+| Page | File | Contents |
+| --- | --- | --- |
+| Home | `index.html` | Introduction, tagline, welcome, short bio and key numbers |
+| Experience | `experience.html` | Work history, core competencies, education and safety certifications |
+| Projects | `projects.html` | Enerkem Phase 1, Phase 1.5 and Phase 2, and building a site LMS |
 
-- `index.html`: page content and structure
-- `style.css`: colors, typography, and responsive layout
-- `README.md`: this file
+All pages share one stylesheet, `style.css`, and a common navigation bar and footer.
+
+## Hosting
+
+The site is hosted with **GitHub Pages** and served directly from this repository. Pushing changes to the published branch updates https://zenguerreiro.github.io automatically.
 
 ## Running locally
 
-Open `index.html` in any web browser. No installation is needed.
+Clone the repository and open `index.html` in any web browser. No installation is needed.
 
-## Deploying
+## License
 
-The site is served directly from this repository with GitHub Pages. Push changes to the published branch and GitHub Pages updates the live site automatically.
+See [LICENSE](LICENSE).
